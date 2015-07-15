@@ -1,0 +1,89 @@
+<!Doctype HTML>
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+    <title>Reservation Page</title>    
+    
+</head>
+
+    
+<body>
+    
+    <header>
+        <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ARK RESERVATION FORM</h1>
+        <br><br>
+        <h2>ARK <br>Bellevue,WA 98007<br>Contact:650-201-5694 </h2>
+    
+    </header>
+    
+    <section>
+        <form action="Confirmation.html" method="get">
+            <fieldset>
+                <legend><h3>Personal Details</h3></legend>
+                <label for="fName"><b>First Name:</b></label> <input id="fName" type="text" name="fName" required>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="mName"><b>Middle Name:</b></label> <input id="mName" type="text" name="mName" >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="lName"><b>Last Name:</b></label> <input id="lName" type="text" name="lName" required>
+                <br><br>
+                <label for="telNo"><b>Telephone No:</b></label> <input id="telNo" type="text" name="telNo" required>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="email"><b>Email:</b></label> <input id="email" type="text" name="email">
+                <br><br>
+                <p><b>Address</b></p>
+                <br>
+                <label for="stAddress"><b>Street:</b></label> <input id="stAddress" type="text" name="stAddress" required>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="apt"><b>Apt/Suite:</b></label> <input id="apt" type="text" name="apt" >
+                <br><br>
+                <label for="city"><b>City:</b></label> <input id="city" type="text" name="city" required >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="zip"><b>Zip:</b></label> <input id="zip" type="number" name="zip" required >      
+                
+            </fieldset>
+            
+            <br><br><br>
+            
+            <fieldset>
+                <legend><h3>Room Details</h3></legend>
+                <label for="inDate"><b>Check In:</b></label> <input id="inDate" type="date" name="inDate" required>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="outDate"><b>Check Out:</b></label> <input id="outDate" type="date" name="outDate" required>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="night"><b>No:of Nights:</b></label> <input id="night" type="number" name="night" required>
+                <br><br>
+                <label for="occupant"><b>No:of Occupants:</b></label> <input id="occupant" type="number" name="occupant" required>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="roomType"><b>Room Type:</b></label> <input id="roomType" type="text" name="roomType" required>     
+                
+             
+            </fieldset>
+            
+            <br><br><br>
+            
+            <fieldset>
+                <legend><h3>Payment Details</h3></legend>  
+                <label for="cash">Cash</label> <input id="cash" type="radio" name="payment">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="check">Check</label> <input id="check" type="radio" name="payment">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="cCard">Credit Card</label> <input id="cCard" type="radio" name="payment">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="dCard">Debit Card</label> <input id="dCard" type="radio" name="payment">
+                <br><br><br>
+                <label for="coupon"><b>Coupon:</b></label> <input id="coupon" type="text" name="coupon">
+            </fieldset>
+            <br><br><br>
+            <input type="submit" value="Continue">
+        
+        </form>
+    
+    </section>
+
+    
+    
+</body>    
+
+</html>
